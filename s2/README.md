@@ -19,14 +19,15 @@
 
 نمودار ERD به شکل زیر ترسیم شده است:
 
-+-------------+ +-------------+
-| Users | | Messages |
-+-------------+ +-------------+
-| UserID | | MessageID |
-| FirstName | | Content |
-| LastName | | Timestamp |
-| Email | | SenderID |
-+-------------+ | ReceiverID |
-+-------------+
++-------------+       +-------------+
+|   Users     |       |   Messages  |
++-------------+       +-------------+
+| UserID      |       | MessageID   |
+| FirstName   |       | Content     |
+| LastName    |       | Timestamp   |
+| Email       |       | SenderID    |
++-------------+       | ReceiverID  |
+                      +-------------+
+
 
 در این نمودار، موجودیت "Users" و موجودیت "Messages" به همراه ویژگی‌های ضروری نمایش داده شده‌اند. همچنین، رابطه‌ای بین این دو موجودیت نیز با ویژگی‌های "SenderID" و "ReceiverID" نشان داده شده است.
