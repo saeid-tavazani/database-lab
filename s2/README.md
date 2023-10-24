@@ -19,16 +19,24 @@
 
 نمودار ERD به شکل زیر ترسیم شده است:
 
-+-------------+    <br />    +-------------+<br />
-|   Users     |    <br />    |   Messages  |<br />
-+-------------+    <br />    +-------------+<br />
-| UserID      |    <br />    | MessageID   |<br />
-| FirstName   |    <br />    | Content     |<br />
-| LastName    |    <br />    | Timestamp   |<br />
-| Email       |    <br />    | SenderID    |<br />
-+-------------+    <br />    | ReceiverID  |<br />
-                   <br />    +-------------+<br />
-
++-------------+ <br />  
+| Users | <br />  
++-------------+ <br />  
+| UserID | <br />  
+| FirstName | <br />  
+| LastName | <br />  
+| Email | <br />  
++-------------+ <br />  
+ <br />  
+ +-------------+<br />
+| Messages |<br />
++-------------+<br />
+| MessageID |<br />
+| Content |<br />
+| Timestamp |<br />
+| SenderID |<br />
+| ReceiverID |<br />
++-------------+<br />
 
 ERD : https://www.figma.com/file/CE5XGQn4XozNWH4bazcl2b/Untitled?type=whiteboard&node-id=0%3A1&t=OlZRbmpTm5uX40mZ-1
 
