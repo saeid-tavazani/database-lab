@@ -33,10 +33,10 @@ api.get("/all", (req, res) => {
   });
 });
 
-api.delete("/rem/:id", (req, res) => {
+api.put("/rem/:id", (req, res) => {
   console.log("success");
   console.log(req.params.id);
-  let userDeleteQuery = `DELETE FROM users WHERE id = ${req.params.id}`;
+  let userDeleteQuery = `UPDATE users SET is_deleted=1 WHERE id = ${req.params.id}`;
   db.query(userDeleteQuery, (err, result) => {
     if (err) {
       console.log(err);
