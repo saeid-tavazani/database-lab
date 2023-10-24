@@ -19,16 +19,16 @@
 
 نمودار ERD به شکل زیر ترسیم شده است:
 
-+-------------+ 
-| Users |  
-+-------------+ <br />  
-| UserID | <br />  
-| FirstName | <br />  
-| LastName | <br />  
-| Email | <br />  
-+-------------+ <br />  
++-------------+<br /> 
+| Users |<br /> 
++-------------+<br />  
+| UserID |<br /> 
+| FirstName |<br />  
+| LastName |<br />  
+| Email |<br />  
++-------------+<br />  
  <br />  
- +-------------+<br />
++-------------+<br />
 | Messages |<br />
 +-------------+<br />
 | MessageID |<br />
