@@ -22,5 +22,8 @@ form.addEventListener("submit", (e) => {
     .then((result) => {
       console.log(result);
       alert("Success");
+    })
+    .catch((err) => {
+      alert(err);
     });
 });
