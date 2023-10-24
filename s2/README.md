@@ -27,17 +27,8 @@
 | FirstName | <br />  
 | LastName | <br />  
 | Email | <br />  
-+-------------+ <br />  
-=======
-+-------------+<br /> 
-| Users |<br /> 
-+-------------+<br />  
-| UserID |<br /> 
-| FirstName |<br />  
-| LastName |<br />  
-| Email |<br />  
-+-------------+<br />  
->>>>>>> dc8894544a19b95002029dca4c4db91e354a4746
++-------------+ <br />
+
  <br />  
 +-------------+<br />
 | Messages |<br />
