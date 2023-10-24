@@ -30,4 +30,6 @@
                       +-------------+
 
 
+ERD : https://www.figma.com/file/CE5XGQn4XozNWH4bazcl2b/Untitled?type=whiteboard&node-id=0%3A1&t=OlZRbmpTm5uX40mZ-1
+
 در این نمودار، موجودیت "Users" و موجودیت "Messages" به همراه ویژگی‌های ضروری نمایش داده شده‌اند. همچنین، رابطه‌ای بین این دو موجودیت نیز با ویژگی‌های "SenderID" و "ReceiverID" نشان داده شده است.
